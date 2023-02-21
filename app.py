@@ -4,10 +4,10 @@ import pandas as pd
 import streamlit as st
 
 # loading the saved model
-loaded_model = pickle.load(open('C:/Users/User/Desktop/Data Science/Projects/Projects/New folder/Student_Grades_Prediction.pkl', 'rb'))
+loaded_model = pickle.load(open('Student_Grades_Prediction.pkl', 'rb'))
 
 # loading the scalar model
-load_scaler = pickle.load(open('C:/Users/User/Desktop/Data Science/Projects/Projects/New folder/Standard_Scalar.pkl', 'rb'))
+load_scaler = pickle.load(open('Standard_Scalar.pkl', 'rb'))
 
 
 # creating a function for Prediction
