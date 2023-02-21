@@ -1,0 +1,11 @@
+streamlit
+sklearn
+pandas 
+numpy 
+matplotlib
+seaborn
+scikit-learn
+imblearn
+xgboost
+statsmodels
+pickle
